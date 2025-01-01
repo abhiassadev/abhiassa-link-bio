@@ -3,8 +3,8 @@ import LinkCard from "../components/LinkCard";
 function Home() {
   return (
     <>
-      <main className="sm:h-screen sm:flex sm:justify-center sm:items-center sm:p-20">
-        <div className="relative sm:border sm:border-slate-200 sm:w-full sm:rounded-xl">
+      <main className="sm:h-screen sm:flex sm:justify-center sm:items-center sm:p-20 md:px-44 lg:px-64 xl:px-80 2xl:px-96">
+        <div className="relative sm:border sm:border-slate-200 sm:w-full sm:rounded-xl sm:shadow-xl">
           <div className="bg-[url('/tornado-hurricane-from-space-picjumbo-com.jpg')] bg-cover h-32 sm:rounded-xl"></div>
           <div className="absolute top-20 left-20 right-20 z-2 flex flex-col justify-center items-center text-center">
             <div className="bg-gray-50 h-28 w-28 rounded-full ring">
@@ -46,9 +46,8 @@ function Home() {
         </div>
       </main>
       <footer className="flex flex-col justify-center items-center mt-20 mb-5">
-        <p className="text-sm text-slate-950">&copy;2025 Abhiassa</p>
-        <p className="text-sm text-slate-950">
-          Space image by{" "}
+        <p className="text-xs text-slate-950">
+          &copy;2025 Abhiassa | Space image by{" "}
           <a href="" className="text-blue-700">
             Picjumbo
           </a>
